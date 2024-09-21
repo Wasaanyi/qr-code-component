@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d5e1ef;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 20%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    font-family: outfit;
+}
+
+.qr-content {
+    padding: 0 10px;
+}
+
+.heading {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.description {
+    font-size: 11px;
+    font-weight: 400;
+}
