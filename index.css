@@ -69,6 +69,9 @@ h6 {
 /* Full css reset above */
 body {
     background-color: #d5e1ef;
+}
+
+main {
     display: grid;
     justify-items: center;
     align-items: center;
